@@ -1,0 +1,244 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width:100%;
+    
+}
+
+.container__titulo{
+    
+    height: 28rem;
+    background-image: url(./fondo/fondoo.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.linea{
+    border-bottom: solid 1px black;
+}
+.whatsapp {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    display: inline;
+    border: solid 5px black;
+    border-radius: 90%;
+    position: fixed;
+    z-index: 10; }
+
+    .whatsappp{
+    position: absolute;
+    top: 15px;
+    left: 1rem;
+    width: 60px;
+    height: 60px;
+    display: inline;
+    border: solid 5px black;
+    border-radius: 90%;
+    z-index: 10; 
+    }
+
+h1{
+    color: #fff;
+    font-family: 'Ultra', serif;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    
+
+}
+h3{
+    color: #fff;
+    font-family: 'Spinnaker', sans-serif;   
+    text-align: center;    
+    
+    
+    
+}
+h4{
+    color: #fff;
+    font-family: 'Ultra', serif;
+    
+    font-size: 1.8rem;
+    text-align: center;
+    
+}
+h5{
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Spinnaker', sans-serif;   
+    text-align: center;   
+    padding: 10px; 
+    
+}
+
+
+/* section*/
+
+.consulta{
+    font-size: 2rem;
+    border-bottom: solid black 3px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin: 3rem;
+    text-align: center;
+} 
+
+/*   SECTION 1 */
+.wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    
+
+}
+.box1, .box2, .box3, .box4{
+    height: 17rem;
+    width: 200px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.boton__ppl{
+ padding: 0.5rem;
+ border-radius: 10%;
+}
+
+.img__2{
+    
+    width: 20vw;
+    height: 10rem;
+}
+.instalacion, .mantenimiento, .reparacion{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+
+}
+
+.borde{
+    border-bottom: solid 4px black;
+   
+}
+
+                                            /*PRINSIPAL*/
+
+
+
+
+  /* prueba bootstrap*/
+  .card-img-top{
+      padding: 1rem 1rem 0;
+      
+  }
+  .card-text, .text-center{
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .col{
+      margin-bottom: 10px;
+      
+  }
+
+
+  .descripcion{
+      font-size: 1.1rem;
+      font-family: 'Times New Roman', Times, serif;
+      padding-top: 10px;
+      text-align: center;
+  }
+  .foto__descrip{
+    border: solid 1px black;
+    margin: 10px;
+    margin-top: 2rem;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(237, 242, 247);
+  }
+  h6{
+      font-size: 1.5rem;
+  }
+
+
+
+  /***********reparaciones **********/
+
+
+  ul li{
+     list-style: none;
+  }
+
+  .tv, .pc, .tablet, .microondas, .parlante, .planchita__pelo{
+      width: 200px;
+      height: 170px;
+  }
+
+
+/*     media para movile    */
+
+@media  (max-width: 576px) {
+
+    h1 {
+        
+        padding-top: 5rem;
+        font-size: 4rem;
+    }
+    
+    .whatsapp {
+        position: absolute;
+        top: 20px;
+        left: 10rem;
+        width: 60px;
+        height: 60px;
+        display: inline;
+        border: solid 5px black;
+        border-radius: 90%;
+        z-index: 10; }
+
+        .whatsappp {
+            position: absolute;
+            top: 490px;
+            left: 10rem;
+            width: 60px;
+            height: 60px;
+            display: inline;
+            border: solid 5px black;
+            border-radius: 90%;
+            z-index: 10; }
+
+        .container__titulo{
+            background-image: url(./fondo/fondom.jpg);
+            background-size: cover;
+            height: 35rem;
+            width: 100%;
+        }
+        .consulta{
+            font-size: 1rem;
+}
+.box1, .box2 ,.box3, .box4{
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    
+}
+.img__2{
+     width: 90%;
+}
+
+.consulta{
+    margin: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+
+}
